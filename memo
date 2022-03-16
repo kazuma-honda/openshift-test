@@ -27,3 +27,7 @@ Goal
 # git init
 
 
+git config http.ssslVerify false 
+
+git remote add origin git@github.com:kazuma-honda/openshift-test.git
+git push origin master
