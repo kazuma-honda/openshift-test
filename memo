@@ -1,0 +1,29 @@
+
+https://qiita.com/tomotagwork/items/bb5919c27ed53a459d09
+
+Goal
+ GitHub、DocurHub、OpenShiftの連携の理解を進める。
+
+
+
+実施準備
+・GitHub用意
+  git@github.com:kazuma-honda/openshift-test.git
+
+
+
+
+1 Github
+ repogitory作成：opeshift-test.git
+ git@github.com:kazuma-honda/openshift-test.gitdoc
+
+
+# docker build -f dockerfiles  -t gotest2 .
+# docker run --rm -d -p 9090:8080 --name gotest-con gotest2
+
+
+# git config --global user.name kazuma-honda
+# git config --global user.email k-honda@pc-daiwabo.co.jp
+# git init
+
+
